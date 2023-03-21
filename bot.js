@@ -72,8 +72,8 @@ function nthIndex(str, pat, n){
 
 
 bot.on('message', (msg) => {
-  var hi="hi";
-  var bye = "bye";
+  var hi="Привет";
+  var bye = "Пока";
   const name = msg.from.first_name;
   const username = msg.from.username;
   if(msg.text.toString().toLowerCase().indexOf(hi)===0||msg.text.toString().toLowerCase().indexOf('hey')==0||msg.text.toString().toLowerCase().indexOf('hello')==0){
